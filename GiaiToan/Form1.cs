@@ -238,5 +238,7 @@ namespace GiaiToan
 
             lblKetQua10.Text = $"Kết quả: Cạnh bên = {Math.Round(canhBen, 2)} | Chu vi = {Math.Round(chuVi, 2)}";
         }
+
+       
     }
 }

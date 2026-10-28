@@ -31,6 +31,7 @@
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
             lblKetQua1 = new Label();
+            lblGiaiphuongtrinhbacnhat = new Label();
             btnGiaiPT1 = new Button();
             txtB = new TextBox();
             txtA = new TextBox();
@@ -38,34 +39,41 @@
             lblNhapA = new Label();
             tabPage2 = new TabPage();
             lblKetQua2 = new Label();
+            lblSosanhhaiso = new Label();
             btnSoSanh = new Button();
             txtNum2 = new TextBox();
             txtNum1 = new TextBox();
             tabPage3 = new TabPage();
-            btnTinhToan = new Button();
             lblKetQua3 = new Label();
+            lblTinhtonghieutich = new Label();
+            btnTinhToan = new Button();
             txtY = new TextBox();
             txtX = new TextBox();
             tabPage4 = new TabPage();
-            btnTongBP = new Button();
+            lblTinhtongbinhphuong = new Label();
+            btnTinhtongbinhphuong = new Button();
             lblKetQua4 = new Label();
             txtN2 = new TextBox();
             txtN1 = new TextBox();
             tabPage5 = new TabPage();
             lblKetQua5 = new Label();
+            lblSodaonguoc = new Label();
             txtN5 = new TextBox();
             btnKiemTra5 = new Button();
             tabPage6 = new TabPage();
+            lblTinhgiophutigiay = new Label();
             txtGiay6 = new TextBox();
             txtPhut6 = new TextBox();
             lblKetQua6 = new Label();
             btnTinh6 = new Button();
             txtGio6 = new TextBox();
             tabPage7 = new TabPage();
+            lblTinhdientichhinhtron = new Label();
             lblKetQua7 = new Label();
             btnTinh7 = new Button();
             txtR7 = new TextBox();
             tabPage8 = new TabPage();
+            lblTinhdientichhinhvuong = new Label();
             lblKetQua8 = new Label();
             btnTinh8 = new Button();
             txtA8 = new TextBox();
@@ -79,6 +87,10 @@
             txtH10 = new TextBox();
             txtB10 = new TextBox();
             txtA10 = new TextBox();
+            lblTinhchuvihinhtron = new Label();
+            lblNhapdaya = new Label();
+            lblNhapdayb = new Label();
+            lblNhapcanhc = new Label();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -114,6 +126,7 @@
             // tabPage1
             // 
             tabPage1.Controls.Add(lblKetQua1);
+            tabPage1.Controls.Add(lblGiaiphuongtrinhbacnhat);
             tabPage1.Controls.Add(btnGiaiPT1);
             tabPage1.Controls.Add(txtB);
             tabPage1.Controls.Add(txtA);
@@ -130,11 +143,20 @@
             // lblKetQua1
             // 
             lblKetQua1.AutoSize = true;
-            lblKetQua1.Location = new Point(153, 237);
+            lblKetQua1.Location = new Point(204, 242);
             lblKetQua1.Name = "lblKetQua1";
             lblKetQua1.Size = new Size(62, 20);
-            lblKetQua1.TabIndex = 5;
+            lblKetQua1.TabIndex = 7;
             lblKetQua1.Text = "Ket Qua";
+            // 
+            // lblGiaiphuongtrinhbacnhat
+            // 
+            lblGiaiphuongtrinhbacnhat.AutoSize = true;
+            lblGiaiphuongtrinhbacnhat.Location = new Point(208, 21);
+            lblGiaiphuongtrinhbacnhat.Name = "lblGiaiphuongtrinhbacnhat";
+            lblGiaiphuongtrinhbacnhat.Size = new Size(185, 20);
+            lblGiaiphuongtrinhbacnhat.TabIndex = 6;
+            lblGiaiphuongtrinhbacnhat.Text = "Giai phuong trinh bac nhat";
             // 
             // btnGiaiPT1
             // 
@@ -181,6 +203,7 @@
             // tabPage2
             // 
             tabPage2.Controls.Add(lblKetQua2);
+            tabPage2.Controls.Add(lblSosanhhaiso);
             tabPage2.Controls.Add(btnSoSanh);
             tabPage2.Controls.Add(txtNum2);
             tabPage2.Controls.Add(txtNum1);
@@ -195,11 +218,20 @@
             // lblKetQua2
             // 
             lblKetQua2.AutoSize = true;
-            lblKetQua2.Location = new Point(206, 248);
+            lblKetQua2.Location = new Point(199, 245);
             lblKetQua2.Name = "lblKetQua2";
-            lblKetQua2.Size = new Size(74, 20);
-            lblKetQua2.TabIndex = 3;
-            lblKetQua2.Text = "Ket Qua 2";
+            lblKetQua2.Size = new Size(62, 20);
+            lblKetQua2.TabIndex = 5;
+            lblKetQua2.Text = "Ket Qua";
+            // 
+            // lblSosanhhaiso
+            // 
+            lblSosanhhaiso.AutoSize = true;
+            lblSosanhhaiso.Location = new Point(199, 60);
+            lblSosanhhaiso.Name = "lblSosanhhaiso";
+            lblSosanhhaiso.Size = new Size(128, 20);
+            lblSosanhhaiso.TabIndex = 4;
+            lblSosanhhaiso.Text = "So sanh 2 so nhap";
             // 
             // btnSoSanh
             // 
@@ -227,8 +259,9 @@
             // 
             // tabPage3
             // 
-            tabPage3.Controls.Add(btnTinhToan);
             tabPage3.Controls.Add(lblKetQua3);
+            tabPage3.Controls.Add(lblTinhtonghieutich);
+            tabPage3.Controls.Add(btnTinhToan);
             tabPage3.Controls.Add(txtY);
             tabPage3.Controls.Add(txtX);
             tabPage3.Location = new Point(4, 29);
@@ -238,24 +271,33 @@
             tabPage3.Text = "bai 3";
             tabPage3.UseVisualStyleBackColor = true;
             // 
+            // lblKetQua3
+            // 
+            lblKetQua3.AutoSize = true;
+            lblKetQua3.Location = new Point(194, 280);
+            lblKetQua3.Name = "lblKetQua3";
+            lblKetQua3.Size = new Size(62, 20);
+            lblKetQua3.TabIndex = 5;
+            lblKetQua3.Text = "Ket Qua";
+            // 
+            // lblTinhtonghieutich
+            // 
+            lblTinhtonghieutich.AutoSize = true;
+            lblTinhtonghieutich.Location = new Point(194, 87);
+            lblTinhtonghieutich.Name = "lblTinhtonghieutich";
+            lblTinhtonghieutich.Size = new Size(146, 20);
+            lblTinhtonghieutich.TabIndex = 4;
+            lblTinhtonghieutich.Text = "Tinh Tong, Hieu, Tich";
+            // 
             // btnTinhToan
             // 
-            btnTinhToan.Location = new Point(302, 237);
+            btnTinhToan.Location = new Point(194, 234);
             btnTinhToan.Name = "btnTinhToan";
             btnTinhToan.Size = new Size(94, 29);
             btnTinhToan.TabIndex = 3;
             btnTinhToan.Text = "Tinh Toan";
             btnTinhToan.UseVisualStyleBackColor = true;
             btnTinhToan.Click += btnTinhToan_Click_1;
-            // 
-            // lblKetQua3
-            // 
-            lblKetQua3.AutoSize = true;
-            lblKetQua3.Location = new Point(201, 257);
-            lblKetQua3.Name = "lblKetQua3";
-            lblKetQua3.Size = new Size(74, 20);
-            lblKetQua3.TabIndex = 2;
-            lblKetQua3.Text = "Ket Qua 3";
             // 
             // txtY
             // 
@@ -273,7 +315,8 @@
             // 
             // tabPage4
             // 
-            tabPage4.Controls.Add(btnTongBP);
+            tabPage4.Controls.Add(lblTinhtongbinhphuong);
+            tabPage4.Controls.Add(btnTinhtongbinhphuong);
             tabPage4.Controls.Add(lblKetQua4);
             tabPage4.Controls.Add(txtN2);
             tabPage4.Controls.Add(txtN1);
@@ -284,24 +327,33 @@
             tabPage4.Text = "bai 4";
             tabPage4.UseVisualStyleBackColor = true;
             // 
-            // btnTongBP
+            // lblTinhtongbinhphuong
             // 
-            btnTongBP.Location = new Point(331, 195);
-            btnTongBP.Name = "btnTongBP";
-            btnTongBP.Size = new Size(94, 29);
-            btnTongBP.TabIndex = 3;
-            btnTongBP.Text = "Tinh Tong BP";
-            btnTongBP.UseVisualStyleBackColor = true;
-            btnTongBP.Click += btnTongBP_Click_1;
+            lblTinhtongbinhphuong.AutoSize = true;
+            lblTinhtongbinhphuong.Location = new Point(202, 37);
+            lblTinhtongbinhphuong.Name = "lblTinhtongbinhphuong";
+            lblTinhtongbinhphuong.Size = new Size(161, 20);
+            lblTinhtongbinhphuong.TabIndex = 4;
+            lblTinhtongbinhphuong.Text = "Tinh Tong Binh Phuong";
+            // 
+            // btnTinhtongbinhphuong
+            // 
+            btnTinhtongbinhphuong.Location = new Point(202, 178);
+            btnTinhtongbinhphuong.Name = "btnTinhtongbinhphuong";
+            btnTinhtongbinhphuong.Size = new Size(176, 29);
+            btnTinhtongbinhphuong.TabIndex = 3;
+            btnTinhtongbinhphuong.Text = "Tinh Tong Binh Phuong";
+            btnTinhtongbinhphuong.UseVisualStyleBackColor = true;
+            btnTinhtongbinhphuong.Click += btnTongBP_Click_1;
             // 
             // lblKetQua4
             // 
             lblKetQua4.AutoSize = true;
-            lblKetQua4.Location = new Point(211, 236);
+            lblKetQua4.Location = new Point(202, 235);
             lblKetQua4.Name = "lblKetQua4";
-            lblKetQua4.Size = new Size(74, 20);
+            lblKetQua4.Size = new Size(62, 20);
             lblKetQua4.TabIndex = 2;
-            lblKetQua4.Text = "Ket Qua 4";
+            lblKetQua4.Text = "Ket Qua";
             // 
             // txtN2
             // 
@@ -312,7 +364,7 @@
             // 
             // txtN1
             // 
-            txtN1.Location = new Point(202, 68);
+            txtN1.Location = new Point(202, 76);
             txtN1.Name = "txtN1";
             txtN1.Size = new Size(125, 27);
             txtN1.TabIndex = 0;
@@ -320,6 +372,7 @@
             // tabPage5
             // 
             tabPage5.Controls.Add(lblKetQua5);
+            tabPage5.Controls.Add(lblSodaonguoc);
             tabPage5.Controls.Add(txtN5);
             tabPage5.Controls.Add(btnKiemTra5);
             tabPage5.Location = new Point(4, 29);
@@ -332,15 +385,24 @@
             // lblKetQua5
             // 
             lblKetQua5.AutoSize = true;
-            lblKetQua5.Location = new Point(279, 250);
+            lblKetQua5.Location = new Point(279, 230);
             lblKetQua5.Name = "lblKetQua5";
             lblKetQua5.Size = new Size(62, 20);
-            lblKetQua5.TabIndex = 2;
+            lblKetQua5.TabIndex = 4;
             lblKetQua5.Text = "Ket Qua";
+            // 
+            // lblSodaonguoc
+            // 
+            lblSodaonguoc.AutoSize = true;
+            lblSodaonguoc.Location = new Point(279, 84);
+            lblSodaonguoc.Name = "lblSodaonguoc";
+            lblSodaonguoc.Size = new Size(101, 20);
+            lblSodaonguoc.TabIndex = 3;
+            lblSodaonguoc.Text = "So dao nguoc";
             // 
             // txtN5
             // 
-            txtN5.Location = new Point(279, 87);
+            txtN5.Location = new Point(279, 128);
             txtN5.Name = "txtN5";
             txtN5.Size = new Size(125, 27);
             txtN5.TabIndex = 1;
@@ -349,14 +411,15 @@
             // 
             btnKiemTra5.Location = new Point(279, 179);
             btnKiemTra5.Name = "btnKiemTra5";
-            btnKiemTra5.Size = new Size(94, 29);
+            btnKiemTra5.Size = new Size(114, 29);
             btnKiemTra5.TabIndex = 0;
-            btnKiemTra5.Text = "Tinh";
+            btnKiemTra5.Text = "So dao nguoc";
             btnKiemTra5.UseVisualStyleBackColor = true;
             btnKiemTra5.Click += btnKiemTra5_Click_2;
             // 
             // tabPage6
             // 
+            tabPage6.Controls.Add(lblTinhgiophutigiay);
             tabPage6.Controls.Add(txtGiay6);
             tabPage6.Controls.Add(txtPhut6);
             tabPage6.Controls.Add(lblKetQua6);
@@ -368,6 +431,15 @@
             tabPage6.TabIndex = 5;
             tabPage6.Text = "bai 6";
             tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // lblTinhgiophutigiay
+            // 
+            lblTinhgiophutigiay.AutoSize = true;
+            lblTinhgiophutigiay.Location = new Point(299, 67);
+            lblTinhgiophutigiay.Name = "lblTinhgiophutigiay";
+            lblTinhgiophutigiay.Size = new Size(129, 20);
+            lblTinhgiophutigiay.TabIndex = 5;
+            lblTinhgiophutigiay.Text = "Tinh gio phut giay";
             // 
             // txtGiay6
             // 
@@ -411,6 +483,7 @@
             // 
             // tabPage7
             // 
+            tabPage7.Controls.Add(lblTinhdientichhinhtron);
             tabPage7.Controls.Add(lblKetQua7);
             tabPage7.Controls.Add(btnTinh7);
             tabPage7.Controls.Add(txtR7);
@@ -419,8 +492,17 @@
             tabPage7.Padding = new Padding(3);
             tabPage7.Size = new Size(792, 417);
             tabPage7.TabIndex = 6;
-            tabPage7.Text = "tabPage7";
+            tabPage7.Text = "bai 7";
             tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // lblTinhdientichhinhtron
+            // 
+            lblTinhdientichhinhtron.AutoSize = true;
+            lblTinhdientichhinhtron.Location = new Point(188, 89);
+            lblTinhdientichhinhtron.Name = "lblTinhdientichhinhtron";
+            lblTinhdientichhinhtron.Size = new Size(161, 20);
+            lblTinhdientichhinhtron.TabIndex = 3;
+            lblTinhdientichhinhtron.Text = "Tinh dien tich hinh tron";
             // 
             // lblKetQua7
             // 
@@ -450,6 +532,7 @@
             // 
             // tabPage8
             // 
+            tabPage8.Controls.Add(lblTinhdientichhinhvuong);
             tabPage8.Controls.Add(lblKetQua8);
             tabPage8.Controls.Add(btnTinh8);
             tabPage8.Controls.Add(txtA8);
@@ -458,8 +541,17 @@
             tabPage8.Padding = new Padding(3);
             tabPage8.Size = new Size(792, 417);
             tabPage8.TabIndex = 7;
-            tabPage8.Text = "tabPage8";
+            tabPage8.Text = "bai 8";
             tabPage8.UseVisualStyleBackColor = true;
+            // 
+            // lblTinhdientichhinhvuong
+            // 
+            lblTinhdientichhinhvuong.AutoSize = true;
+            lblTinhdientichhinhvuong.Location = new Point(180, 100);
+            lblTinhdientichhinhvuong.Name = "lblTinhdientichhinhvuong";
+            lblTinhdientichhinhvuong.Size = new Size(175, 20);
+            lblTinhdientichhinhvuong.TabIndex = 3;
+            lblTinhdientichhinhvuong.Text = "Tinh dien tich hinh vuong";
             // 
             // lblKetQua8
             // 
@@ -489,6 +581,7 @@
             // 
             // tabPage9
             // 
+            tabPage9.Controls.Add(lblTinhchuvihinhtron);
             tabPage9.Controls.Add(lblKetQua9);
             tabPage9.Controls.Add(btnTinh9);
             tabPage9.Controls.Add(txtR9);
@@ -497,7 +590,7 @@
             tabPage9.Padding = new Padding(3);
             tabPage9.Size = new Size(792, 417);
             tabPage9.TabIndex = 8;
-            tabPage9.Text = "tabPage9";
+            tabPage9.Text = "bai 9";
             tabPage9.UseVisualStyleBackColor = true;
             // 
             // lblKetQua9
@@ -528,6 +621,9 @@
             // 
             // tabPage10
             // 
+            tabPage10.Controls.Add(lblNhapcanhc);
+            tabPage10.Controls.Add(lblNhapdayb);
+            tabPage10.Controls.Add(lblNhapdaya);
             tabPage10.Controls.Add(lblKetQua10);
             tabPage10.Controls.Add(btnTinh10);
             tabPage10.Controls.Add(txtH10);
@@ -538,7 +634,7 @@
             tabPage10.Padding = new Padding(3);
             tabPage10.Size = new Size(792, 417);
             tabPage10.TabIndex = 9;
-            tabPage10.Text = "tabPage10";
+            tabPage10.Text = "bai 10";
             tabPage10.UseVisualStyleBackColor = true;
             // 
             // lblKetQua10
@@ -580,6 +676,42 @@
             txtA10.Name = "txtA10";
             txtA10.Size = new Size(125, 27);
             txtA10.TabIndex = 0;
+            // 
+            // lblTinhchuvihinhtron
+            // 
+            lblTinhchuvihinhtron.AutoSize = true;
+            lblTinhchuvihinhtron.Location = new Point(225, 102);
+            lblTinhchuvihinhtron.Name = "lblTinhchuvihinhtron";
+            lblTinhchuvihinhtron.Size = new Size(142, 20);
+            lblTinhchuvihinhtron.TabIndex = 3;
+            lblTinhchuvihinhtron.Text = "Tinh chu vi hinh tron";
+            // 
+            // lblNhapdaya
+            // 
+            lblNhapdaya.AutoSize = true;
+            lblNhapdaya.Location = new Point(30, 110);
+            lblNhapdaya.Name = "lblNhapdaya";
+            lblNhapdaya.Size = new Size(85, 20);
+            lblNhapdaya.TabIndex = 5;
+            lblNhapdaya.Text = "Nhap day a";
+            // 
+            // lblNhapdayb
+            // 
+            lblNhapdayb.AutoSize = true;
+            lblNhapdayb.Location = new Point(30, 162);
+            lblNhapdayb.Name = "lblNhapdayb";
+            lblNhapdayb.Size = new Size(86, 20);
+            lblNhapdayb.TabIndex = 6;
+            lblNhapdayb.Text = "Nhap day b";
+            // 
+            // lblNhapcanhc
+            // 
+            lblNhapcanhc.AutoSize = true;
+            lblNhapcanhc.Location = new Point(30, 214);
+            lblNhapcanhc.Name = "lblNhapcanhc";
+            lblNhapcanhc.Size = new Size(91, 20);
+            lblNhapcanhc.TabIndex = 7;
+            lblNhapcanhc.Text = "Nhap canh c";
             // 
             // Form1
             // 
@@ -627,20 +759,16 @@
         private Button btnGiaiPT1;
         private TextBox txtB;
         private TextBox txtA;
-        private Label lblKetQua1;
-        private Label lblKetQua2;
         private Button btnSoSanh;
         private TextBox txtNum2;
         private TextBox txtNum1;
         private Button btnTinhToan;
-        private Label lblKetQua3;
         private TextBox txtY;
         private TextBox txtX;
-        private Button btnTongBP;
+        private Button btnTinhtongbinhphuong;
         private Label lblKetQua4;
         private TextBox txtN2;
         private TextBox txtN1;
-        private Label lblKetQua5;
         private TextBox txtN5;
         private Button btnKiemTra5;
         private Label lblKetQua6;
@@ -666,5 +794,21 @@
         private TextBox txtA10;
         private TextBox txtGiay6;
         private TextBox txtPhut6;
+        private Label lblGiaiphuongtrinhbacnhat;
+        private Label lblSosanhhaiso;
+        private Label lblTinhtonghieutich;
+        private Label lblTinhtongbinhphuong;
+        private Label lblSodaonguoc;
+        private Label lblKetQua1;
+        private Label lblKetQua2;
+        private Label lblKetQua3;
+        private Label lblKetQua5;
+        private Label lblTinhgiophutigiay;
+        private Label lblTinhdientichhinhtron;
+        private Label lblTinhdientichhinhvuong;
+        private Label lblTinhchuvihinhtron;
+        private Label lblNhapcanhc;
+        private Label lblNhapdayb;
+        private Label lblNhapdaya;
     }
 }
